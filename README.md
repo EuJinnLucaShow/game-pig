@@ -1,1 +1,1 @@
-# game-pig
+# Project #3. Game "Pig".
