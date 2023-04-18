@@ -63,9 +63,8 @@ btnNew.addEventListener('click', () => {
   document.getElementById(`current-0`).textContent = 0;
   document.getElementById(`current-1`).textContent = 0;
   imgDice.classList.add('hidden');
-  document
-    .querySelector(`.player-${activePlayer}`)
-    .classList.remove('player-winner');
+  player0.classList.remove('player-winner');
+  player1.classList.remove('player-winner');
   player0.classList.add('player-active');
   player1.classList.remove('player-active');
 });
